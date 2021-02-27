@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1daa38a8-7743-4c49-9d97-2c51cb2de0c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test_pipenv_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/double_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/maximum_element_in_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/DP_longest_increasing_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/all_anagrams_in_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/binary_tree_path_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/bipartaite_graph.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/container_with_most_water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/contigious_subarray_with_maximum_sum_kadanes_algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/daily_temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/duplicate_number_in_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/first_non_unique_char_in_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/group_anagrams.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/height_of_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/inorder_preorder_exp_to_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/letter_comb_of_phone_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/maximum_level_sum_of_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/no_of_islands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/postfix_expression_to_expression_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/pre_order_and_leaf_nodes_to_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/python_30_problems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/reverse_polish_notation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/small_questions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/symmetric_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/two_number_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems/valid_anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/string_to_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jobs/test_spark_job.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mE2kKCkTmV2cU504bpLLNoHTll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.40689656" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algo/problems" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.maximum_level_sum_of_binary_tree">
+    <configuration name="DP_longest_arithmatic_progression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_pipenv_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DP_longest_increasing_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_pipenv_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/DP_longest_increasing_subsequence.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="contigious_subarray_with_maximum_sum_kadanes_algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_pipenv_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/contigious_subarray_with_maximum_sum_kadanes_algo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="letter_comb_of_phone_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_pipenv_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/letter_comb_of_phone_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maximum_level_sum_of_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_pipenv_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/maximum_level_sum_of_binary_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.maximum_level_sum_of_binary_tree" />
+        <item itemvalue="Python.DP_longest_arithmatic_progression" />
+        <item itemvalue="Python.DP_longest_increasing_subsequence" />
+        <item itemvalue="Python.letter_comb_of_phone_number" />
+        <item itemvalue="Python.contigious_subarray_with_maximum_sum_kadanes_algo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1daa38a8-7743-4c49-9d97-2c51cb2de0c9" name="Default Changelist" comment="" />
+      <created>1609044572322</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609044572322</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="153" key="#Project_Structure" timestamp="1609044992822">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state x="440" y="153" key="#Project_Structure/0.23.1680.930@0.23.1680.930" timestamp="1609044992822" />
+    <state x="628" y="249" key="FileChooserDialogImpl" timestamp="1609044935287">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state x="628" y="249" key="FileChooserDialogImpl/0.23.1680.930@0.23.1680.930" timestamp="1609044935287" />
+    <state width="1638" height="247" key="GridCell.Tab.0.bottom" timestamp="1614359736477">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736477" />
+    <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1613367981640" />
+    <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1614092753928" />
+    <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
+    <state width="1638" height="247" key="GridCell.Tab.0.center" timestamp="1614359736476">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736476" />
+    <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1613367981638" />
+    <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1614092753927" />
+    <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
+    <state width="1638" height="247" key="GridCell.Tab.0.left" timestamp="1614359736476">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736476" />
+    <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1613367981638" />
+    <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1614092753927" />
+    <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
+    <state width="1638" height="247" key="GridCell.Tab.0.right" timestamp="1614359736476">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736476" />
+    <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1613367981639" />
+    <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1614092753928" />
+    <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
+    <state width="1638" height="306" key="GridCell.Tab.1.bottom" timestamp="1609664685796">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state width="1638" height="306" key="GridCell.Tab.1.bottom/0.23.1680.930@0.23.1680.930" timestamp="1609664685796" />
+    <state width="1638" height="306" key="GridCell.Tab.1.center" timestamp="1609664685796">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state width="1638" height="306" key="GridCell.Tab.1.center/0.23.1680.930@0.23.1680.930" timestamp="1609664685796" />
+    <state width="1638" height="306" key="GridCell.Tab.1.left" timestamp="1609664685795">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state width="1638" height="306" key="GridCell.Tab.1.left/0.23.1680.930@0.23.1680.930" timestamp="1609664685795" />
+    <state width="1638" height="306" key="GridCell.Tab.1.right" timestamp="1609664685796">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state width="1638" height="306" key="GridCell.Tab.1.right/0.23.1680.930@0.23.1680.930" timestamp="1609664685796" />
+    <state x="328" y="69" key="SettingsEditor" timestamp="1609045872151">
+      <screen x="0" y="23" width="1680" height="930" />
+    </state>
+    <state x="328" y="69" key="SettingsEditor/0.23.1680.930@0.23.1680.930" timestamp="1609045872151" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1614406006055">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614406006055" />
+    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.23.1680.927@0.23.1680.927" timestamp="1613365943618" />
+    <state x="517" y="320" key="com.intellij.ide.util.TipDialog/0.23.1680.929@0.23.1680.929" timestamp="1613139669403" />
+    <state x="517" y="320" key="com.intellij.ide.util.TipDialog/0.23.1680.930@0.23.1680.930" timestamp="1610628442788" />
+    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup" timestamp="1613884588342">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1613884588342" />
+    <state x="505" y="226" width="670" height="676" key="search.everywhere.popup/0.23.1680.930@0.23.1680.930" timestamp="1610615133199" />
+  </component>
+</project>
