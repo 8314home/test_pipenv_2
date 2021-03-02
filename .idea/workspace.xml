@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1daa38a8-7743-4c49-9d97-2c51cb2de0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test_pipenv_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/BFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/DFS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/double_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/maximum_element_in_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/DP_longest_increasing_subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/all_anagrams_in_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/binary_tree_path_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/bipartaite_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/container_with_most_water.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/contigious_subarray_with_maximum_sum_kadanes_algo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/daily_temperature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/duplicate_number_in_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/first_non_unique_char_in_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/group_anagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/height_of_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/inorder_preorder_exp_to_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/letter_comb_of_phone_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/maximum_level_sum_of_binary_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/no_of_islands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/postfix_expression_to_expression_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/pre_order_and_leaf_nodes_to_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/python_30_problems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/reverse_polish_notation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/small_questions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/symmetric_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/two_number_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems/valid_anagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/string_to_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/test_spark_job.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/min_steps_by_knight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/most_frequent_subtree_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/n_ary_tree_level_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/node_next_pointer_to parent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/palindrome_partition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,8 +47,8 @@
       <recent name="$PROJECT_DIR$/Algo/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.maximum_level_sum_of_binary_tree">
-    <configuration name="DP_longest_arithmatic_progression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.palindrome_partition">
+    <configuration name="min_steps_by_knight" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +56,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/min_steps_by_knight.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="DP_longest_increasing_subsequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="most_frequent_subtree_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +77,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/DP_longest_increasing_subsequence.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/most_frequent_subtree_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="contigious_subarray_with_maximum_sum_kadanes_algo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="n_ary_tree_level_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/contigious_subarray_with_maximum_sum_kadanes_algo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/n_ary_tree_level_traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="letter_comb_of_phone_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="node_next_pointer_to parent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/letter_comb_of_phone_number.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/node_next_pointer_to parent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maximum_level_sum_of_binary_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="palindrome_partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems/maximum_level_sum_of_binary_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/palindrome_partition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.maximum_level_sum_of_binary_tree" />
-        <item itemvalue="Python.DP_longest_arithmatic_progression" />
-        <item itemvalue="Python.DP_longest_increasing_subsequence" />
-        <item itemvalue="Python.letter_comb_of_phone_number" />
-        <item itemvalue="Python.contigious_subarray_with_maximum_sum_kadanes_algo" />
+        <item itemvalue="Python.palindrome_partition" />
+        <item itemvalue="Python.node_next_pointer_to parent" />
+        <item itemvalue="Python.n_ary_tree_level_traversal" />
+        <item itemvalue="Python.most_frequent_subtree_sum" />
+        <item itemvalue="Python.min_steps_by_knight" />
       </list>
     </recent_temporary>
   </component>
@@ -223,31 +185,31 @@
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state x="628" y="249" key="FileChooserDialogImpl/0.23.1680.930@0.23.1680.930" timestamp="1609044935287" />
-    <state width="1638" height="247" key="GridCell.Tab.0.bottom" timestamp="1614359736477">
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom" timestamp="1614658662744">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736477" />
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662744" />
     <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1613367981640" />
     <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1614092753928" />
     <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
-    <state width="1638" height="247" key="GridCell.Tab.0.center" timestamp="1614359736476">
+    <state width="1638" height="328" key="GridCell.Tab.0.center" timestamp="1614658662742">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="247" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736476" />
+    <state width="1638" height="328" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662742" />
     <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1613367981638" />
     <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1614092753927" />
     <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
-    <state width="1638" height="247" key="GridCell.Tab.0.left" timestamp="1614359736476">
+    <state width="1638" height="328" key="GridCell.Tab.0.left" timestamp="1614658662741">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="247" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736476" />
+    <state width="1638" height="328" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662741" />
     <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1613367981638" />
     <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1614092753927" />
     <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
-    <state width="1638" height="247" key="GridCell.Tab.0.right" timestamp="1614359736476">
+    <state width="1638" height="328" key="GridCell.Tab.0.right" timestamp="1614658662743">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="247" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614359736476" />
+    <state width="1638" height="328" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662743" />
     <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1613367981639" />
     <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1614092753928" />
     <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
@@ -271,10 +233,10 @@
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state x="328" y="69" key="SettingsEditor/0.23.1680.930@0.23.1680.930" timestamp="1609045872151" />
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1614406006055">
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1614656261758">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614406006055" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614656261758" />
     <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.23.1680.927@0.23.1680.927" timestamp="1613365943618" />
     <state x="517" y="320" key="com.intellij.ide.util.TipDialog/0.23.1680.929@0.23.1680.929" timestamp="1613139669403" />
     <state x="517" y="320" key="com.intellij.ide.util.TipDialog/0.23.1680.930@0.23.1680.930" timestamp="1610628442788" />

@@ -36,8 +36,6 @@ def longest_ap_sequence_length(input_list_ap_sequence):
     return sorted(final_dict.items(), key=lambda x: x[1], reverse=True)[0]
 
 
-
-
 if __name__ == "__main__":
     print("longest_ap_sequence_length")
 
