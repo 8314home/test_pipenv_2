@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1daa38a8-7743-4c49-9d97-2c51cb2de0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algo/problems2/min_steps_by_knight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems2/most_frequent_subtree_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems2/n_ary_tree_level_traversal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems2/node_next_pointer_to parent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/problems2/palindrome_partition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/binary_tree_vertical_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/problems2/rotate_linked_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems/DP_longest_arithmatic_progression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo/problems2/palindrome_partition.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems2/DP_palindrome_partition.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +44,8 @@
       <recent name="$PROJECT_DIR$/Algo/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.palindrome_partition">
-    <configuration name="min_steps_by_knight" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.rotate_linked_list">
+    <configuration name="DP_palindrome_partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +57,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/min_steps_by_knight.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/DP_palindrome_partition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -69,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="most_frequent_subtree_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="binary_tree_vertical_order" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/most_frequent_subtree_sum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/binary_tree_vertical_order.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="palindrome_partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rotate_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +141,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/palindrome_partition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/rotate_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.palindrome_partition" />
+        <item itemvalue="Python.rotate_linked_list" />
+        <item itemvalue="Python.binary_tree_vertical_order" />
+        <item itemvalue="Python.DP_palindrome_partition" />
         <item itemvalue="Python.node_next_pointer_to parent" />
         <item itemvalue="Python.n_ary_tree_level_traversal" />
-        <item itemvalue="Python.most_frequent_subtree_sum" />
-        <item itemvalue="Python.min_steps_by_knight" />
       </list>
     </recent_temporary>
   </component>
@@ -185,31 +182,31 @@
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state x="628" y="249" key="FileChooserDialogImpl/0.23.1680.930@0.23.1680.930" timestamp="1609044935287" />
-    <state width="1638" height="328" key="GridCell.Tab.0.bottom" timestamp="1614658662744">
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom" timestamp="1614750780991">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662744" />
+    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1614750780991" />
     <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1613367981640" />
     <state width="1638" height="247" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1614092753928" />
     <state width="1638" height="248" key="GridCell.Tab.0.bottom/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
-    <state width="1638" height="328" key="GridCell.Tab.0.center" timestamp="1614658662742">
+    <state width="1638" height="328" key="GridCell.Tab.0.center" timestamp="1614750780989">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662742" />
+    <state width="1638" height="328" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1614750780989" />
     <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1613367981638" />
     <state width="1638" height="247" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1614092753927" />
     <state width="1638" height="248" key="GridCell.Tab.0.center/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
-    <state width="1638" height="328" key="GridCell.Tab.0.left" timestamp="1614658662741">
+    <state width="1638" height="328" key="GridCell.Tab.0.left" timestamp="1614750780988">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662741" />
+    <state width="1638" height="328" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1614750780988" />
     <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1613367981638" />
     <state width="1638" height="247" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1614092753927" />
     <state width="1638" height="248" key="GridCell.Tab.0.left/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
-    <state width="1638" height="328" key="GridCell.Tab.0.right" timestamp="1614658662743">
+    <state width="1638" height="328" key="GridCell.Tab.0.right" timestamp="1614750780990">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="328" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614658662743" />
+    <state width="1638" height="328" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1614750780990" />
     <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1613367981639" />
     <state width="1638" height="247" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1614092753928" />
     <state width="1638" height="248" key="GridCell.Tab.0.right/0.23.1680.930@0.23.1680.930" timestamp="1610643800296" />
@@ -233,10 +230,10 @@
       <screen x="0" y="23" width="1680" height="930" />
     </state>
     <state x="328" y="69" key="SettingsEditor/0.23.1680.930@0.23.1680.930" timestamp="1609045872151" />
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1614656261758">
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1614748526106">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614656261758" />
+    <state x="517" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1614748526106" />
     <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.23.1680.927@0.23.1680.927" timestamp="1613365943618" />
     <state x="517" y="320" key="com.intellij.ide.util.TipDialog/0.23.1680.929@0.23.1680.929" timestamp="1613139669403" />
     <state x="517" y="320" key="com.intellij.ide.util.TipDialog/0.23.1680.930@0.23.1680.930" timestamp="1610628442788" />
