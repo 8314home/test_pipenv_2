@@ -41,6 +41,7 @@ dp_array = [99999 for i in range(string_len)]
 print(f"dp_array - {dp_array}")
 
 for i in range(len(dp_array)):
+    print(i)
     if flag_matrix_2d[0][i] is True:
         print(f"flag_matrix_2d[0][{i}] - {flag_matrix_2d[0][i]}")
         dp_array[i] = 0
@@ -49,6 +50,7 @@ for i in range(len(dp_array)):
             print(f"flag_matrix_2d[{j + 1}][{i}] - {flag_matrix_2d[j + 1][i]} dp_array[{j}] - {dp_array[j]}")
             if flag_matrix_2d[j + 1][i] is True and (1 + dp_array[j] < dp_array[i]):
                 dp_array[i] = 1 + dp_array[j]
+                print(f"dp_array[{i}] set to - {dp_array[i]}")
 
 
 print(f"dp_array - {dp_array}")

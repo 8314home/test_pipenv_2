@@ -32,6 +32,21 @@ def n_ary_tree_level_traversal(node: Node):
     return final_list
 
 
+def n_ary_tree_level_traversal_2(root_node: Node):
+    final_dict = dict()
+    root_level = 1
+    helper_function(root_node, root_level, final_dict)
+    print(f"final_dict= {final_dict}")
+
+
+def helper_function(node, level, input_dict):
+    input_dict.setdefault(level, []).append(node.data)
+    if node.left_child:
+        helper_function(node.left_child, level + 1, input_dict)
+    if node.right_child:
+        helper_function(node.right_child, level + 1, input_dict)
+
+
 if __name__ == "__main__":
     root = Node(5)
     root.left_child = Node(3)
@@ -41,3 +56,5 @@ if __name__ == "__main__":
     root.left_child.right_child = Node(-5)
 
     print(f"n_ary_tree_level_traversal - {n_ary_tree_level_traversal(root)}")
+
+    n_ary_tree_level_traversal_2(root)
