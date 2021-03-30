@@ -173,16 +173,6 @@ class BST(object):
         if node.right_child:
             self.dfs_of_tree(node.right_child)
 
-    def tilt_of_tree(self, node, tilt=0):
-        if node is None:  # As leaf nodes does not have any left or right child
-            return 0
-        print(f"Checking for node - {node.data}")
-        left_value = self.tilt_of_tree(node.left_child, tilt)
-        right_value = self.tilt_of_tree(node.right_child, tilt)
-
-        tilt += math.fabs(left_value - right_value)
-        return node.data + left_value + right_value
-
     # Greater tree
 
 # Tree is identical or not - check roots level, check for left subtree, check for right subtree
@@ -273,9 +263,7 @@ if __name__ == "__main__":
     print("\n pre order traversal")
     bst.traverse_pre_order()
 
-    print("\n Tilt of tree")
-    tilt_of_tree=bst.tilt_of_tree(bst.root)
-    print(f"tilt_of_tree - {tilt_of_tree}")
+
 
     print(f"bst_2 ")
 
