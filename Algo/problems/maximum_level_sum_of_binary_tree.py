@@ -26,7 +26,7 @@ def max_level_sum_of_binary_tree(root_node: Node):
     q1.append(root_node)
     print(f"\nq1 - {len(q1)} q2- {len(q2)}")
 
-    while q1 or q2:  # keep continuing loop untill both queues are empty
+    while q1 or q2:  # keep continuing loop until both queues are empty
 
         if len(q1):
             level += 1

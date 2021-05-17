@@ -7,7 +7,6 @@ class Node(object):
 
 
 def most_frequent_subtree_sum(_root_node: Node):
-    most_frequent_sum = -99
     count_dict = dict()
     helper(count_dict, _root_node)
 
@@ -15,7 +14,10 @@ def most_frequent_subtree_sum(_root_node: Node):
 
     longest_list = sorted(count_dict.values(), key=lambda l: len(l), reverse=True)
     print(f"longest_list - {longest_list}")
-    return longest_list[0]
+    for k, v in count_dict.items():
+        if longest_list[0] == v:
+            return k
+    return -1
 
 
 def helper(_count_dict: dict, node: Node):
@@ -26,12 +28,7 @@ def helper(_count_dict: dict, node: Node):
     # below include recursive call for left subtree (child at node level) and right_subtree
     node_level_subtree_sum = node.data + helper(_count_dict, node.left_child) + helper(_count_dict, node.right_child)
     str_node_level_subtree_sum = str(node_level_subtree_sum)
-
-    if str_node_level_subtree_sum in _count_dict.keys():
-        _count_dict[str_node_level_subtree_sum].append(node.data)
-    else:
-        _count_dict.setdefault(str_node_level_subtree_sum, []).append(node.data)
-
+    _count_dict.setdefault(str_node_level_subtree_sum, []).append(node.data)
     return node_level_subtree_sum
 
 

@@ -58,9 +58,8 @@ class binary_tree(object):
         return left_flag or right_flag
 
 
-
 if __name__ == "__main__":
-    bt=binary_tree()
+    bt = binary_tree()
     bt.insert_data(7)
     bt.insert_data(10)
     bt.insert_data(3)
@@ -69,6 +68,6 @@ if __name__ == "__main__":
     bt.inorder_traversal(bt.root, [])
     look_for_path_sum = 26
     print(f"root of tree - {bt.root.data}")
-    print(bt.binary_tree_path_sum(bt.root,0,look_for_path_sum))
+    print(bt.binary_tree_path_sum(bt.root, 0, look_for_path_sum))
 
 

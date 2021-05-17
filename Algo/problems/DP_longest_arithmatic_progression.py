@@ -32,8 +32,8 @@ def longest_ap_sequence_length(input_list_ap_sequence):
             else:
                 final_dict[key] = v_dict[key]
     print(f"final_dict - {final_dict}")
-
-    return sorted(final_dict.items(), key=lambda x: x[1], reverse=True)[0]
+    max_no_of_common_difference = sorted(final_dict.items(), key=lambda x: x[1], reverse=True)[0]
+    return int(max_no_of_common_difference[1])+1
 
 
 if __name__ == "__main__":

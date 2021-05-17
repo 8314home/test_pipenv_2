@@ -14,6 +14,8 @@ def contigious_subarray_with_maximum_sum(input_list):
 
     for x in input_list:
         tmp_sum_value += x
+        print(f"sum_value - {sum_value}")
+        print(f"tmp_sum_value - {tmp_sum_value}")
         if sum_value < tmp_sum_value:
             sum_value = tmp_sum_value
         if tmp_sum_value < 0:
@@ -22,6 +24,6 @@ def contigious_subarray_with_maximum_sum(input_list):
 
 
 if __name__=="__main__":
-    array_list = [1,2,3-8,5,9]
+    array_list = [1,2,4,-8,5,9]
     output_sum = contigious_subarray_with_maximum_sum(array_list)
     print(output_sum)

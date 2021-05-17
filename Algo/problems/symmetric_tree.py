@@ -22,10 +22,21 @@ class binary_tree(object):
         if node.right_child:
             self._traverse(node.right_child)
 
-    def symmetric_tree_check(self, node1, node2):
+    def symmetric_tree_check(self, root_node):
+        if root_node is None:
+            return True
+        return self.mirror_node_check(root_node.left_child, root_node.right_child)
+
+    def mirror_node_check(self, node1, node2):
         if node1 is None and node2 is None:
             return True
-        return node1.data == node2.data and self.symmetric_tree_check(node1.left_child, node2.right_child) and self.symmetric_tree_check(node1.right_child, node2.left_child)
+        if node1 is None and node2:
+            return False
+        if node1 and node2 is None:
+            return False
+        return node1.data == node2.data \
+               and self.mirror_node_check(node1.left_child, node2.right_child) \
+               and self.mirror_node_check(node1.right_child, node2.left_child)
 
 
 if __name__ == "__main__":
@@ -45,5 +56,5 @@ if __name__ == "__main__":
 
     bt.traverse()
 
-    print(f"symmetric_tree_check -> {bt.symmetric_tree_check(bt.root, bt.root)}")
+    print(f"\n\nsymmetric_tree_check -> {bt.symmetric_tree_check(bt.root)}")
 
