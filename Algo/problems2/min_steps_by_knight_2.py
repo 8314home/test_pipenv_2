@@ -3,9 +3,10 @@ from collections import deque
 
 class Pair(object):
 
-    def __init__(self, x, y):
+    def __init__(self, x, y, t):
         self.x = x
         self.y = y
+        self.t = t
 
 
 def is_valid(input_point: Pair, rows, cols):
@@ -17,13 +18,13 @@ def is_valid(input_point: Pair, rows, cols):
         return True
 
 
-def neighbour_check(u, v, q, rows, cols, input_2d_matrix, destination):
+def neighbour_check(u, v, q, rows, cols, input_2d_matrix, destination, turn):
     print(f"u- {u} v-{v}")
-    if is_valid(Pair(u, v), rows, cols) and input_2d_matrix[u][v]==0:
+    if is_valid(Pair(u, v, turn), rows, cols) and input_2d_matrix[u][v] == 0:
         print(f"checking against point {u}, {v} input_2d_matrix = {input_2d_matrix[u][v]} ")
         # mark neighbour co-ordinate visited
         input_2d_matrix[u][v] = 1
-        q.append(Pair(u, v))
+        q.append(Pair(u, v, turn))
         # checking if destination is reached
         if u == destination[0] and v == destination[1]:
             print(f"MATCH FOUND")
@@ -32,28 +33,28 @@ def neighbour_check(u, v, q, rows, cols, input_2d_matrix, destination):
     return False
 
 
-def bfs_from_i_j(input_2d_matrix, i, j, destination, q, rows, cols):
-    if neighbour_check(i-1, j-2, q, rows, cols, input_2d_matrix, destination):
+def bfs_from_i_j(input_2d_matrix, i, j, destination, q, rows, cols, turn):
+    if neighbour_check(i-1, j-2, q, rows, cols, input_2d_matrix, destination, turn):
         return True
-    if neighbour_check(i-1, j+2, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i-1, j+2, q, rows, cols, input_2d_matrix, destination, turn):
         return True
 
     # check for (i+1,j-2), (i+1,j+2)
-    if neighbour_check(i+1, j-2, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i+1, j-2, q, rows, cols, input_2d_matrix, destination, turn):
         return True
-    if neighbour_check(i+1, j+2, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i+1, j+2, q, rows, cols, input_2d_matrix, destination, turn):
         return True
 
     # check for (i+2,j-1), (i+2,j+1)
-    if neighbour_check(i+2, j-1, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i+2, j-1, q, rows, cols, input_2d_matrix, destination, turn):
         return True
-    if neighbour_check(i+2, j+1, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i+2, j+1, q, rows, cols, input_2d_matrix, destination, turn):
         return True
 
     # check for (i-2,j-1), (i-2,j+1)
-    if neighbour_check(i-2, j-1, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i-2, j-1, q, rows, cols, input_2d_matrix, destination, turn):
         return True
-    if neighbour_check(i-2, j+1, q, rows, cols, input_2d_matrix, destination):
+    if neighbour_check(i-2, j+1, q, rows, cols, input_2d_matrix, destination, turn):
         return True
     return False
 
@@ -65,9 +66,8 @@ def min_steps_by_knight(input_2d_matrix, start_point, destination):
 
     print(f"visited_matrix - {input_2d_matrix}")
     q = deque()
-    q.append(Pair(start_point[0], start_point[1]))
-    q.append(Pair(None, None))
-    ans = 0
+    q.append(Pair(start_point[0], start_point[1], 0))
+    q.append(Pair(None, None, None))
 
     while len(q):
         print(f"length of queue - {len(q)}")
@@ -78,25 +78,26 @@ def min_steps_by_knight(input_2d_matrix, start_point, destination):
         if len(q) == 0:
             break
 
-        ans += 1  # increase ans by 1 when all possible moves from i,j has been checked and target not found
-
         # untill None pair is reached, reaching None means we have covered all neighbours who can be reached from i,j
         while q[0].x is not None and q[0].y is not None:
             item = q.popleft()
-            print(f"poped queue item - ({item.x} , {item.y})")
+            print(f"poped queue item - ({item.x} , {item.y}, turn={item.t})")
             i = item.x
             j = item.y
+            t = item.t
             input_2d_matrix[i][j] = 1
 
-            if bfs_from_i_j(input_2d_matrix, i, j, destination, q, rows, cols):
-                return ans
+            t += 1  # increase turn by 1 to mark next turn
+
+            if bfs_from_i_j(input_2d_matrix, i, j, destination, q, rows, cols, t):
+                return t
             # Below is done to mark that all neighbour visited for item
-            q.append(Pair(None, None))
+            q.append(Pair(None, None,None))
 
             # final queue content
             for i in q:
                 print(f"({i.x},{i.y}) - > ", end="")
-            print(f"\nneighbour check completed for item - {item.x} , {item.y} ans={ans}")
+            print(f"\nneighbour check completed for item - {item.x} , {item.y} ans={t}")
             print("------------")
 
     return -99
