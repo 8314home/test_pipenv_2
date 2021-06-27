@@ -4,22 +4,22 @@ from collections import deque
 
 def fn_valid_parethesis_string(input_string):
 
-    stack_1 = deque()
-    stack_2 = deque()
+    stack_1 = deque()  # stack for left parenthesis (
+    stack_2 = deque()  # stack for star *
 
     for i in range(len(input_string)):
         c = input_string[i]
         if c == '(':
-            stack_1.append(i)
+            stack_1.append(i)  # stack for left parenthesis (
         elif c == '*':
-            stack_2.append(i)
+            stack_2.append(i)   # stack for star *
         else:  # found a ')'
-            if len(stack_1) == 0 and len(stack_2) == 0:
-                return False
-            elif stack_1:
+            if stack_1:
                 stack_1.pop()
             elif stack_2:
                 stack_2.pop()
+            else:
+                return False
 
     while stack_1 and stack_2:
         if stack_1[0] < stack_2[0]:     # for a string like (*

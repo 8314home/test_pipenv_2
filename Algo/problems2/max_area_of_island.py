@@ -1,14 +1,23 @@
-def helper(matrix, x, y, c, row, col):
-    if x < 0 or x > row-1 or y < 0 or y > col-1:
-        return 0
-    if matrix[x][y] == 1:
+def isvalid(matrix, x, y, row, col):
+    if x < 0 or x > row-1 or y < 0 or y > col-1 or (matrix[x][y] == 0):
+        return False
+    return True
 
-        matrix[x][y] = 0  # marks the 1 value for position to 0 to avoid re-visit
 
-        c = max(helper(matrix, x-1, y, c, row, col), helper(matrix, x+1, y, c+1, row, col),
-                helper(matrix, x, y-1, c, row, col), helper(matrix, x, y+1, c+1, row, col),
-                helper(matrix, x-1, y-1, c, row, col), helper(matrix, x-1, y+1, c+1, row, col),
-                helper(matrix, x+1, y-1, c, row, col), helper(matrix, x+1, y+1, c+1, row, col))
+def dfs_i_j(input_matrix, x, y, c, row, col):
+    if isvalid(input_matrix, x, y, row, col):
+        input_matrix[x][y] = 0
+        c += 1
+        print(f"x={x},y={y},c={c} checking for neighbours of {x}, {y}")
+        c = dfs_i_j(input_matrix, x-1, y, c, row, col)
+        c = dfs_i_j(input_matrix, x+1, y, c, row, col)
+        c = dfs_i_j(input_matrix, x, y-1, c, row, col)
+        c = dfs_i_j(input_matrix, x, y+1, c, row, col)
+        c = dfs_i_j(input_matrix, x-1, y-1, c, row, col)
+        c = dfs_i_j(input_matrix, x-1, y+1, c, row, col)
+        c = dfs_i_j(input_matrix, x+1, y-1, c, row, col)
+        c = dfs_i_j(input_matrix, x+1, y+1, c, row, col)
+        print(f"-----------------------------------------------------checking done neighbours of {x}, {y}")
     return c
 
 
@@ -17,7 +26,8 @@ def max_island_area(input_matrix, row, col):
     for i in range(row):
         for j in range(col):
             if input_matrix[i][j] == 1:
-                ans = max(ans, helper(input_matrix, i, j, 1, row, col))
+                print(f"co-ordinate: i={i},j={j}")
+                ans = max(ans, dfs_i_j(input_matrix, i, j, 0, row, col))  # c=0 being passed
     return ans
 
 
