@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1daa38a8-7743-4c49-9d97-2c51cb2de0c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/coin_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/dp_best_time_to_buy_sell_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/dp_staircase_problem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/binary_tree_level_order_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/binary_tree_zigzag_level_order_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/min_max_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/parenthesis_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sh_run/optimus_jobs_slack_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sh_run/optimus_slack_post.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sh_run/test_failure_slack_post.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/problems2/contiguous_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems2/contiguous_array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/problems2/max_area_of_island.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems2/max_area_of_island.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/problems2/valid_parenthesis_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems2/valid_parenthesis_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo/problems2/snake_ladder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems2/snake_ladder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +49,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Algo/problems2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sh_run" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40689656" />
@@ -45,15 +57,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP" />
       <recent name="$PROJECT_DIR$/Algo/problems" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sh_run" />
       <recent name="$PROJECT_DIR$/Algo/problems2" />
       <recent name="$PROJECT_DIR$/Algo/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wall_and_gates">
-    <configuration name="contiguous_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.binary_tree_level_order_traversal">
+    <configuration name="binary_tree_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/contiguous_array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/binary_tree_level_order_traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="max_area_of_island" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="binary_tree_zigzag_level_order_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/max_area_of_island.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/binary_tree_zigzag_level_order_traversal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="surrounding_region" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="coin_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/surrounding_region.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/coin_change.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="valid_parenthesis_string" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="parenthesis_check" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/problems2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/valid_parenthesis_string.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/parenthesis_check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +151,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wall_and_gates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="snake_ladder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +163,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/wall_and_gates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/problems2/snake_ladder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.wall_and_gates" />
-        <item itemvalue="Python.valid_parenthesis_string" />
-        <item itemvalue="Python.max_area_of_island" />
-        <item itemvalue="Python.surrounding_region" />
-        <item itemvalue="Python.contiguous_array" />
+        <item itemvalue="Python.binary_tree_level_order_traversal" />
+        <item itemvalue="Python.binary_tree_zigzag_level_order_traversal" />
+        <item itemvalue="Python.snake_ladder" />
+        <item itemvalue="Python.coin_change" />
+        <item itemvalue="Python.parenthesis_check" />
       </list>
     </recent_temporary>
   </component>
@@ -182,62 +196,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="350" key="GridCell.Tab.0.bottom" timestamp="1621962319610">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1680" height="300" key="GridCell.Tab.0.bottom" timestamp="1628053357700">
+      <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="350" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1621962319610" />
-    <state width="1638" height="293" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1621580769114" />
-    <state width="1638" height="328" key="GridCell.Tab.0.bottom/0.23.1680.929@0.23.1680.929" timestamp="1615914328508" />
-    <state width="1638" height="275" key="GridCell.Tab.0.bottom/0.23.1680.934@0.23.1680.934" timestamp="1619190766594" />
-    <state width="1638" height="350" key="GridCell.Tab.0.center" timestamp="1621962319609">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1680" height="358" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462530" />
+    <state width="1680" height="300" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1628053357700" />
+    <state width="1680" height="300" key="GridCell.Tab.0.center" timestamp="1628053357699">
+      <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="350" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1621962319609" />
-    <state width="1638" height="293" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1621580769114" />
-    <state width="1638" height="328" key="GridCell.Tab.0.center/0.23.1680.929@0.23.1680.929" timestamp="1615914328508" />
-    <state width="1638" height="275" key="GridCell.Tab.0.center/0.23.1680.934@0.23.1680.934" timestamp="1619190766594" />
-    <state width="1638" height="350" key="GridCell.Tab.0.left" timestamp="1621962319609">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1680" height="358" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462529" />
+    <state width="1680" height="300" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1628053357699" />
+    <state width="1680" height="300" key="GridCell.Tab.0.left" timestamp="1628053357697">
+      <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="350" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1621962319609" />
-    <state width="1638" height="293" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1621580769114" />
-    <state width="1638" height="328" key="GridCell.Tab.0.left/0.23.1680.929@0.23.1680.929" timestamp="1615914328507" />
-    <state width="1638" height="275" key="GridCell.Tab.0.left/0.23.1680.934@0.23.1680.934" timestamp="1619190766594" />
-    <state width="1638" height="350" key="GridCell.Tab.0.right" timestamp="1621962319610">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1680" height="358" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462529" />
+    <state width="1680" height="300" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1628053357697" />
+    <state width="1680" height="300" key="GridCell.Tab.0.right" timestamp="1628053357699">
+      <screen x="0" y="23" width="1680" height="927" />
     </state>
-    <state width="1638" height="350" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1621962319610" />
-    <state width="1638" height="293" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1621580769114" />
-    <state width="1638" height="328" key="GridCell.Tab.0.right/0.23.1680.929@0.23.1680.929" timestamp="1615914328508" />
-    <state width="1638" height="275" key="GridCell.Tab.0.right/0.23.1680.934@0.23.1680.934" timestamp="1619190766594" />
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom" timestamp="1616391918536">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1616391918536" />
-    <state width="1638" height="362" key="GridCell.Tab.1.center" timestamp="1616391918535">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1616391918535" />
-    <state width="1638" height="362" key="GridCell.Tab.1.left" timestamp="1616391918535">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1616391918535" />
-    <state width="1638" height="362" key="GridCell.Tab.1.right" timestamp="1616391918536">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state width="1638" height="362" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1616391918536" />
+    <state width="1680" height="358" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462530" />
+    <state width="1680" height="300" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1628053357699" />
     <state x="328" y="68" key="SettingsEditor" timestamp="1620482051047">
       <screen x="0" y="23" width="1680" height="927" />
     </state>
     <state x="328" y="68" key="SettingsEditor/0.23.1680.927@0.23.1680.927" timestamp="1620482051046" />
-    <state x="517" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1622121802395">
+    <state x="517" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1627879540829">
+      <screen x="0" y="23" width="1680" height="927" />
+    </state>
+    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1627016886849" />
+    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.23.1680.927@0.23.1680.927" timestamp="1627879540829" />
+    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup" timestamp="1625553068538">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1622121802395" />
-    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.23.1680.927@0.23.1680.927" timestamp="1621747493293" />
-    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup" timestamp="1617345315672">
-      <screen x="0" y="0" width="1680" height="1050" />
-    </state>
-    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1617345315672" />
+    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1625553068538" />
   </component>
 </project>

@@ -55,7 +55,7 @@ if __name__ == "__main__":
     # After adding elements into queue mark the points visited
 
     board_size = 30
-    target_value = 30 # last point of board
+    target_value = 30  # last point of board
     arr = [0 for i in range(0, 31)]
     arr[0] = -999  # we will not use 0 position
 
