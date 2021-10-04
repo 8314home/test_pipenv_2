@@ -31,7 +31,7 @@ def bipartaite_check_node(node, input_input_matrix, input_list_of_colours):
             if input_input_matrix[u][v] == 1 and input_list_of_colours[v] == -1:
                 input_list_of_colours[v] = 1 - input_list_of_colours[u]
                 bfs_queue.append(v)
-            # After colouring is done
+            # If does not go into above if condition, for a case when node already have a colour but u to v conn present
             if input_input_matrix[u][v] == 1 and input_list_of_colours[u] == input_list_of_colours[v]:
                 print(f"input_list_of_colours[{u}] - {input_list_of_colours[u] }")
                 print(f"input_list_of_colours[{v}] - {input_list_of_colours[v] }")

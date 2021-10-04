@@ -9,6 +9,8 @@
 
 def merge_sort_fn(list_of_items):
 
+    print(f"list_of_items at start - {list_of_items}\n")
+
     # divide part
 
     if len(list_of_items) == 1:
@@ -21,10 +23,10 @@ def merge_sort_fn(list_of_items):
     print(f"call merge sort on left_subarray - {left_subarray} right_subarray - {right_subarray}")
 
     merge_sort_fn(left_subarray)
-    print(f"back from recursion left_subarray - {left_subarray}")
+    print(f"back from recursion left_subarray with - {left_subarray}")
 
     merge_sort_fn(right_subarray)
-    print(f"back from recursion right_subarray - {right_subarray}")
+    print(f"back from recursion right_subarray with - {right_subarray}")
 
     # conquer part-1
 
@@ -57,11 +59,12 @@ def merge_sort_fn(list_of_items):
 
     print(f"conquer-part-2 done for sub arrays {left_subarray} and {right_subarray}")
     print(f"list_of_items - {list_of_items}\n")
+    print('\n---------------------------')
 
 
 if __name__ == "__main__":
     print("Merge Sort")
-    list_of_items = [8,2,-1,56,-5,12,7,4]
+    list_of_items = [8,2,-1,56,-5,12,7]
     print(f"original list_of_items - {list_of_items}\n")
     merge_sort_fn(list_of_items)
     print(f"merge sort o/p - {list_of_items}")
