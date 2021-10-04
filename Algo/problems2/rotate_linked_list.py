@@ -40,7 +40,7 @@ class LinkedList(object):
         while current_node:
             list_size += 1
             current_node = current_node.next_node
-
+        # k is the position from where I need to cut the linked list
         k = list_size - input_no_of_rotations
         k = k % list_size  # this is done in case list size is 5 and rotations are 8
 

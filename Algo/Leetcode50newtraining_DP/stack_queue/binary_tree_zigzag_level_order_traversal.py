@@ -21,7 +21,7 @@ def zigzag_level_order_traversal(root):
         n = len(q)
         for _ in range(n):
             if zigzag:
-                item = q.pop()
+                item = q.pop()  # pop() ousts from right side
                 tmp.append(item.data)
                 if item.right_child:
                     q.appendleft(item.right_child)
