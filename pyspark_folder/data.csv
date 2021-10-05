@@ -1,0 +1,19 @@
+name,event_time
+'Alice', 1
+'Alice', 60
+'Alice', 160
+'Alice', 1111
+'Alice', 1111
+'Alice', 1111
+'Bob', 1
+'Alice', 1111
+'Alice', 1111
+'Alice', 1111
+'Alice', 1112
+'Bob', 3
+'Alice', 2
+'Bob', 2
+'Alice', 3
+'Bob', 300
+'Bob', 600
+'Bob', 1050
