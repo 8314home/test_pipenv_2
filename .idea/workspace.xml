@@ -2,36 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1daa38a8-7743-4c49-9d97-2c51cb2de0c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/longest_subtring_palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/robot_unique_paths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/sub_array_with_longest_AP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/binary_search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/boats_to_save_people.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/count_prime.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/first_last_occurances.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/longest_substring_without_repeating_char.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/mountain_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/graphs_Trees/kth_smallest_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/graphs_Trees/lowest_common_ancestor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/graphs_Trees/max_path_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/graphs_Trees/serialize_deserialize_bst.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list/add_two_numbers_linkedlist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list/ll_has_cycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list/merge_two_sorted_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list/remove_nth_node_from_end.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list/reverse_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/recursion/all_subsets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/recursion/palindrome_partition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/fillup_box_N_with_items_1tok_kg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/dateformat_changes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/increasing_triplet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/emp_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algo/test_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moving_avg.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle_problem_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle_problem_2/animation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle_problem_2/animation.py.bkp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oracle_problem_2/main_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_10_json_file.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_session_0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_session_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_session_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/batch_session_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/data_generator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/dataset_show_output_read.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/find_keyword_in_text_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyspark_folder/sample2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fn_movement/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fn_movement/expected_output/output_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fn_movement/input_data/input_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_fn_movement/test_fn_movement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_prepare_animation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_prepare_animation/expected_output/output_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_prepare_animation/input_data/input_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_prepare_animation/test_prepare_animation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/binary_tree_level_order_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/binary_tree_level_order_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/binary_tree_zigzag_level_order_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/binary_tree_zigzag_level_order_traversal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/min_max_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/min_max_stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/parenthesis_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/parenthesis_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/merge_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/problems/bipartaite_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems/bipartaite_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algo/problems2/rotate_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/problems2/rotate_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/longest_subtring_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/DP_problems/longest_subtring_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/binary_tree_level_order_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/stack_queue/binary_tree_level_order_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyspark_folder/batch_session_pyspark_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyspark_folder/batch_session_pyspark_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sh_run" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.40689656" />
@@ -71,9 +85,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/test_prepare_animation/expected_output" />
+      <recent name="$PROJECT_DIR$/oracle_problem_2" />
+      <recent name="$PROJECT_DIR$/pyspark_folder" />
       <recent name="$PROJECT_DIR$/sh_run" />
-      <recent name="$PROJECT_DIR$/Algo/problems2" />
-      <recent name="$PROJECT_DIR$/Algo/problems" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics" />
@@ -83,8 +99,8 @@
       <recent name="$PROJECT_DIR$/Algo/problems" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.palindrome_partition">
-    <configuration name="all_subsets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.test_prepare_animation">
+    <configuration name="animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +108,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oracle_problem_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/recursion/all_subsets.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oracle_problem_2/animation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,28 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test_pipenv_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/binary_search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="increasing_triplet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +133,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/merge_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/basics/increasing_triplet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +142,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="palindrome_partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_pipenv_2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../.local/share/virtualenvs/test_pipenv_2-M383RwBN/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oracle_problem_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oracle_problem_2/main_program.py" />
+      <option name="PARAMETERS" value="--initial_state &quot;YRRY.YR.YRR.R.YRRY.&quot; --speed s" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_fn_movement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +171,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/recursion" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_fn_movement" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/recursion/palindrome_partition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_fn_movement/test_fn_movement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="remove_nth_node_from_end" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_prepare_animation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_pipenv_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,11 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/test_prepare_animation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algo/Leetcode50newtraining_DP/linked_list/remove_nth_node_from_end.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_prepare_animation/test_prepare_animation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,13 +205,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.animation" />
+      <item itemvalue="Python.increasing_triplet" />
+      <item itemvalue="Python.main_program" />
+      <item itemvalue="Python.test_fn_movement" />
+      <item itemvalue="Python.test_prepare_animation" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.palindrome_partition" />
-        <item itemvalue="Python.binary_search" />
-        <item itemvalue="Python.merge_sort" />
-        <item itemvalue="Python.all_subsets" />
-        <item itemvalue="Python.remove_nth_node_from_end" />
+        <item itemvalue="Python.test_prepare_animation" />
+        <item itemvalue="Python.test_fn_movement" />
+        <item itemvalue="Python.main_program" />
+        <item itemvalue="Python.animation" />
+        <item itemvalue="Python.increasing_triplet" />
       </list>
     </recent_temporary>
   </component>
@@ -213,40 +236,71 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1680" height="300" key="GridCell.Tab.0.bottom" timestamp="1633270206779">
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636786606641">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1636786606641" />
+    <state x="552" y="306" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636725223139">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="552" y="306" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1636725223139" />
+    <state x="552" y="296" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.938@0.23.1680.938" timestamp="1633354992450" />
+    <state x="378" y="148" key="DBNavigator.ProjectSettingsDialog" timestamp="1633449578120">
       <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1680" height="358" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462530" />
-    <state width="1680" height="300" key="GridCell.Tab.0.bottom/0.23.1680.927@0.23.1680.927" timestamp="1628072268736" />
-    <state width="1680" height="300" key="GridCell.Tab.0.bottom/0.23.1680.938@0.23.1680.938" timestamp="1633270206779" />
-    <state width="1680" height="300" key="GridCell.Tab.0.center" timestamp="1633270206779">
+    <state x="378" y="148" key="DBNavigator.ProjectSettingsDialog/0.23.1680.938@0.23.1680.938" timestamp="1633449578120" />
+    <state width="1680" height="467" key="GridCell.Tab.0.bottom" timestamp="1636821572394">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="467" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1636821572394" />
+    <state width="1680" height="394" key="GridCell.Tab.0.bottom/0.23.1680.938@0.23.1680.938" timestamp="1635481826009" />
+    <state width="1680" height="467" key="GridCell.Tab.0.center" timestamp="1636821572393">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="467" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1636821572393" />
+    <state width="1680" height="394" key="GridCell.Tab.0.center/0.23.1680.938@0.23.1680.938" timestamp="1635481826005" />
+    <state width="1680" height="467" key="GridCell.Tab.0.left" timestamp="1636821572392">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="467" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1636821572392" />
+    <state width="1680" height="394" key="GridCell.Tab.0.left/0.23.1680.938@0.23.1680.938" timestamp="1635481826002" />
+    <state width="1680" height="467" key="GridCell.Tab.0.right" timestamp="1636821572393">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="467" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1636821572393" />
+    <state width="1680" height="394" key="GridCell.Tab.0.right/0.23.1680.938@0.23.1680.938" timestamp="1635481826008" />
+    <state width="1680" height="360" key="GridCell.Tab.1.bottom" timestamp="1636786811391">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="360" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1636786811391" />
+    <state width="1680" height="303" key="GridCell.Tab.1.bottom/0.23.1680.938@0.23.1680.938" timestamp="1635006303791" />
+    <state width="1680" height="360" key="GridCell.Tab.1.center" timestamp="1636786811390">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="360" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1636786811390" />
+    <state width="1680" height="303" key="GridCell.Tab.1.center/0.23.1680.938@0.23.1680.938" timestamp="1635006303791" />
+    <state width="1680" height="360" key="GridCell.Tab.1.left" timestamp="1636786811390">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="360" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1636786811390" />
+    <state width="1680" height="303" key="GridCell.Tab.1.left/0.23.1680.938@0.23.1680.938" timestamp="1635006303791" />
+    <state width="1680" height="360" key="GridCell.Tab.1.right" timestamp="1636786811390">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1680" height="360" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1636786811390" />
+    <state width="1680" height="303" key="GridCell.Tab.1.right/0.23.1680.938@0.23.1680.938" timestamp="1635006303791" />
+    <state x="517" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1636808928503">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1636808928503" />
+    <state x="517" y="323" key="com.intellij.ide.util.TipDialog/0.23.1680.938@0.23.1680.938" timestamp="1635400835888" />
+    <state x="217" y="229" key="new project wizard" timestamp="1636818931490">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="217" y="229" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1636818931490" />
+    <state x="505" y="228" width="670" height="683" key="search.everywhere.popup" timestamp="1635426544190">
       <screen x="0" y="23" width="1680" height="938" />
     </state>
-    <state width="1680" height="358" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462529" />
-    <state width="1680" height="300" key="GridCell.Tab.0.center/0.23.1680.927@0.23.1680.927" timestamp="1628072268736" />
-    <state width="1680" height="300" key="GridCell.Tab.0.center/0.23.1680.938@0.23.1680.938" timestamp="1633270206779" />
-    <state width="1680" height="300" key="GridCell.Tab.0.left" timestamp="1633270206779">
-      <screen x="0" y="23" width="1680" height="938" />
-    </state>
-    <state width="1680" height="358" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462529" />
-    <state width="1680" height="300" key="GridCell.Tab.0.left/0.23.1680.927@0.23.1680.927" timestamp="1628072268736" />
-    <state width="1680" height="300" key="GridCell.Tab.0.left/0.23.1680.938@0.23.1680.938" timestamp="1633270206779" />
-    <state width="1680" height="300" key="GridCell.Tab.0.right" timestamp="1633270206779">
-      <screen x="0" y="23" width="1680" height="938" />
-    </state>
-    <state width="1680" height="358" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1627036462530" />
-    <state width="1680" height="300" key="GridCell.Tab.0.right/0.23.1680.927@0.23.1680.927" timestamp="1628072268736" />
-    <state width="1680" height="300" key="GridCell.Tab.0.right/0.23.1680.938@0.23.1680.938" timestamp="1633270206779" />
-    <state x="517" y="323" key="com.intellij.ide.util.TipDialog" timestamp="1633316312623">
-      <screen x="0" y="23" width="1680" height="938" />
-    </state>
-    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1627016886849" />
-    <state x="517" y="319" key="com.intellij.ide.util.TipDialog/0.23.1680.927@0.23.1680.927" timestamp="1628067182313" />
-    <state x="517" y="323" key="com.intellij.ide.util.TipDialog/0.23.1680.938@0.23.1680.938" timestamp="1633316312623" />
-    <state x="505" y="228" width="670" height="683" key="search.everywhere.popup" timestamp="1633102373118">
-      <screen x="0" y="23" width="1680" height="938" />
-    </state>
-    <state x="505" y="229" width="670" height="764" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1625553068538" />
-    <state x="505" y="228" width="670" height="683" key="search.everywhere.popup/0.23.1680.938@0.23.1680.938" timestamp="1633102373118" />
+    <state x="505" y="228" width="670" height="683" key="search.everywhere.popup/0.23.1680.938@0.23.1680.938" timestamp="1635426544190" />
   </component>
 </project>

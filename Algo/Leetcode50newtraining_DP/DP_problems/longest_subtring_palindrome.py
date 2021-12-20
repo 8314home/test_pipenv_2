@@ -24,7 +24,7 @@ def longest_substring_palindrome(input):
     #     print(dp[i][:])
 
     for j in range(1, n):  # substring consideration
-        for i in range(0, j):  # Upto j
+        for i in range(0, j):  # Upto j-1
             innerpalindrome = dp[i+1][j-1] or j-i <= 2
             if input[i] == input[j] and innerpalindrome:
                 dp[i][j] = True

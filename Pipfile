@@ -16,6 +16,8 @@ python_version = "3.6.8"
 
 [packages]
 pyddq = "*"
+pandas = "*"
+tqdm = "*"
 
 [pipenv]
 allow_prereleases = true
