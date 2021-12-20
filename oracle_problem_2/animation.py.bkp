@@ -1,0 +1,46 @@
+
+state_dict = dict()
+
+
+def fn_movement(prev_state, state_i, len_arr, speed):
+    #print(prev_state)
+    tmp = ['.' for _ in range(len_arr)]
+    for x in range(len_arr):
+        #print(prev_state[x], x)
+        if (prev_state[x] == 'R' or prev_state[x] == 'O') and 0 <= (x + speed) <= len_arr-1:
+            if 'Y' in tmp[x + speed]:
+                tmp[x + speed] = 'O'
+            else:
+                tmp[x + speed] = 'R'
+        if (prev_state[x] == 'Y' or prev_state[x] == 'O') and 0 <= (x - speed) <= len_arr-1:
+            if 'R' in tmp[x - speed]:
+                tmp[x - speed] = 'O'
+            else:
+                tmp[x - speed] = 'Y'
+
+    #print(tmp)
+    state_dict[state_i] = tmp.copy()
+    return ''.join(state_dict[state_i])
+
+
+if __name__ == '__main__':
+
+    initialState = "YRRY.YR.YRR.R.YRRY."
+    speed_of_animation = 1
+
+    len_initialState = len(initialState)
+    final_string = ''.join(['.'] * len_initialState)
+    state_dict[0] = list(initialState).copy()
+
+    last_state = state_dict[0]
+    i = 1
+    returned_string = ''
+
+    # loop while returned_string!= all .....
+    print(initialState)
+    while returned_string != final_string:
+        returned_string = fn_movement(last_state, i, len_initialState, speed_of_animation)
+        print(returned_string)
+        last_state = state_dict[i]
+        i += 1
+    print(state_dict)

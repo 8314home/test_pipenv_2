@@ -1,0 +1,18 @@
+{
+  "1": {
+    "initialState": "RR..YRY",
+    "speed" : 3
+  },
+  "2": {
+    "initialState": "YRYR.YRYR",
+    "speed" : 2
+  },
+  "3": {
+    "initialState": "RYRYRYRYRY",
+    "speed" : 10
+  },
+  "4": {
+    "initialState": "YRRY.YR.YRR.R.YRRY.",
+    "speed" : 1
+  }
+}

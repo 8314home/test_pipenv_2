@@ -27,7 +27,7 @@ spark = SparkSession.builder.appName('batch_pyspark_session').master('local[4]')
 df = spark.read.csv(path='data.csv', sep=',', header=True, schema=data_schema)
 df = df.select('name', f.translate("event_time", ' ', '').cast('long').alias('event_time_long')). \
     drop('event_time'). \
-    withColumnRenamed('event_time_long', 'event_time')
+    withColumnRenamed('event_time_long', 'event_time').dropDuplicates()
 df.show(20, False)
 
 max_inactivity_limit = 300 # 5 mins
@@ -35,16 +35,14 @@ max_session_duration = 1000 # 1000 seconds
 window_1 = Window.partitionBy('name').orderBy(f.asc('event_time'))
 
 df.printSchema()
-
+# & (df2["event_time"] < df2["start_of_session"].cast('int') + max_session_duration)
 
 df2 = df.withColumn("prev_event_time", f.lag(df["event_time"], 1).over(window_1)).\
     withColumn('start_of_session', f.first(df["event_time"]).over(window_1))
 
-df2 = df2.select('name', 'event_time', 'prev_event_time',
-                 (df2["event_time"].cast('long') - df2["prev_event_time"].cast('long')).alias('difference'),
-                 f.when(((df2["event_time"].cast('int') - df2["prev_event_time"].cast('int')) <= max_inactivity_limit) & (df2["event_time"] < df2["start_of_session"].cast('int') + max_session_duration)
+df2 = df2.select('name', 'event_time', 'prev_event_time', 'start_of_session',
+                 f.when(((df2["event_time"].cast('int') - df2["prev_event_time"].cast('int')) <= max_inactivity_limit)
                         , 0).otherwise(1).alias('isSession'))
-df2.show(20, False)
 
 df2 = df2.select('name', 'event_time', f.sum('isSession').over(window_1).alias('sessionid'))
 df2.show(20, False)

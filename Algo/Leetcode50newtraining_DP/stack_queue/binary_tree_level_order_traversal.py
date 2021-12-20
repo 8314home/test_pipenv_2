@@ -37,6 +37,21 @@ def binary_tree_level_order_traversal(root: Node):
     return final_list
 
 
+def binary_tree_level_order_traversal_recursion(root):
+    height_dict = {}
+    _helper(root, 0, height_dict)
+    print(height_dict)
+    return height_dict
+
+
+def _helper(node, h, height_dict):
+    if node is None:
+        return
+    height_dict.setdefault(h, []).append(node.data)
+    _helper(node.left_child, h+1, height_dict)
+    _helper(node.right_child, h+1, height_dict)
+
+
 if __name__ == "__main__":
     ROOT = Node(10)
     ROOT.left_child = Node(5)
@@ -45,3 +60,4 @@ if __name__ == "__main__":
     ROOT.right_child.right_child = Node(17)
 
     print(f"Level order traversal result - {binary_tree_level_order_traversal(ROOT)}")
+    binary_tree_level_order_traversal_recursion(ROOT)
