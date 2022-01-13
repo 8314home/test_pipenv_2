@@ -44,6 +44,9 @@ df2 = df2.select('name', 'event_time', 'prev_event_time', 'start_of_session',
                  f.when(((df2["event_time"].cast('int') - df2["prev_event_time"].cast('int')) <= max_inactivity_limit)
                         , 0).otherwise(1).alias('isSession'))
 
+df2.select('name', 'event_time', 'isSession').show(20, False)
+# sum() is helping to get sum over (1+0+0) for 3 events within a single session markinng total=1
+# for next it is causing (1+0+0)+1 = 2 thus gradually increasing
 df2 = df2.select('name', 'event_time', f.sum('isSession').over(window_1).alias('sessionid'))
 df2.show(20, False)
 
